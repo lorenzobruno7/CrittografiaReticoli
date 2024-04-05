@@ -3,7 +3,7 @@ clc
 clear all
 
 %Step 1: Definizine messaggio e parametri
-m = 'The answer is 42';
+m = input("Inserire un messaggio da cifrare: ", "s");
 params = [47, 3, 128, 7]; params = num2cell(params);
 
 % Step 2: Generazione delle chiavi
